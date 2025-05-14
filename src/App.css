@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar-collapse{
+  z-index: 999;
+  text-align: center;
+  justify-content: center;
+}
+#navbarSupportedContent{
+  background-color: rgb(237, 237, 237) !important;
+}
+.total-navbar{
+  background-color: rgb(237, 237, 237) !important;
+  height: 3rem;
+}
+.nav-icons{
+margin-left: 20px;
+justify-content: center;
+align-items: center;
+}
+.cart-btn{
+  margin-left: 20px;
+}
+.sliding{
+  height: 350px;
+}
+.dataSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.data{
+  height: 80%;
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dataImage{
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 70%;
+  cursor: pointer;
+}
+.dataImage:hover{
+  scale: 1.02;
+  transition: all 0.ms linear ease-in-out;
+}
+.pricing{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer-h2{
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background-color: rgb(50, 51, 52);
+  color: white;
+}
+
+.mensdata{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mensimage img{
+  margin-top: 20px;
+  /* border-radius: 15px; */
+  margin-left: 10px;
+  object-fit: fill;
+  height: 450px;
+  width: 320px;
+}
+.mensimage p{
+  text-align: center;
+}
+.mensimage :hover{
+  scale: 1.03;
+}
+.mensrating{
+  text-align: center;
+}
+
+.Footer{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(202, 209, 209);
+  height: 300px;
+  text-align: center;
+}
+.Footerlinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
