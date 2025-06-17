@@ -6,7 +6,7 @@ const dressData = [
       name: "Floral Summer Dress",
       category: "Women",
       price: 1299,
-      imageUrl: "src/images/girl-1333640.jpg",
+      imageUrl: "/images/girl-1333640.jpg",
       originalPrice: 1799,
       rating: 4.5,
       inStock: true,
@@ -22,7 +22,7 @@ const dressData = [
       originalPrice: 3499,
       rating: 4.2,
       inStock: true,
-      imageUrl: "src/images/image2.jpg",
+      imageUrl: "/images/image2.jpg",
       sizes: ["M", "L", "XL", "XXL"],
       colors: ["Black", "Navy", "Gray"],
       description: "Sharp and elegant blazer ideal for business meetings or formal events."
@@ -35,7 +35,7 @@ const dressData = [
       originalPrice: 699,
       rating: 4.8,
       inStock: true,
-      imageUrl: "src/images/pexels-godisable-jacob-226636-818992.jpg",
+      imageUrl: "/images/pexels-godisable-jacob-226636-818992.jpg",
       sizes: ["2Y", "4Y", "6Y", "8Y"],
       colors: ["Green", "Orange", "Blue"],
       description: "Fun and comfy cartoon-printed T-shirt your kids will love."
@@ -48,7 +48,7 @@ const dressData = [
       originalPrice: 4599,
       rating: 4.6,
       inStock: false,
-      imageUrl: "src/images/pexels-godisable-jacob-226636-965324.jpg",
+      imageUrl: "/images/pexels-godisable-jacob-226636-965324.jpg",
       sizes: ["M", "L", "XL"],
       colors: ["Maroon", "Gold", "Black"],
       description: "Elegant party gown with sequin details perfect for evening events."
@@ -61,7 +61,7 @@ const dressData = [
       originalPrice: 1199,
       rating: 4.3,
       inStock: true,
-      imageUrl: "src/images/pexels-jack-winbow-460463-1457983.jpg",
+      imageUrl: "/images/pexels-jack-winbow-460463-1457983.jpg",
       sizes: ["M", "L", "XL"],
       colors: ["White", "Blue", "Olive"],
       description: "Stylish and comfortable shirt for casual wear or a semi-formal look."
@@ -73,7 +73,7 @@ const dressData = [
       name: "Floral Summer Dress",
       category: "Women",
       price: 1299,
-      imageUrl: "src/images/image1.jpg",
+      imageUrl: "/images/image1.jpg",
       originalPrice: 1799,
       rating: 4.5,
       inStock: true,
@@ -89,7 +89,7 @@ const dressData = [
       originalPrice: 3499,
       rating: 4.2,
       inStock: true,
-      imageUrl: "src/images/man-1866572.jpg",
+      imageUrl: "/images/man-1866572.jpg",
       sizes: ["M", "L", "XL", "XXL"],
       colors: ["Black", "Navy", "Gray"],
       description: "Sharp and elegant blazer ideal for business meetings or formal events."
@@ -102,7 +102,7 @@ const dressData = [
       originalPrice: 699,
       rating: 4.8,
       inStock: true,
-      imageUrl: "src/images/pexels-omarlpzruiz-1192601.jpg",
+      imageUrl: "/images/pexels-omarlpzruiz-1192601.jpg",
       sizes: ["2Y", "4Y", "6Y", "8Y"],
       colors: ["Green", "Orange", "Blue"],
       description: "Fun and comfy cartoon-printed T-shirt your kids will love."
@@ -115,7 +115,7 @@ const dressData = [
       originalPrice: 4599,
       rating: 4.6,
       inStock: false,
-      imageUrl: "src/images/pexels-godisable-jacob-226636-965324.jpg",
+      imageUrl: "/images/pexels-godisable-jacob-226636-965324.jpg",
       sizes: ["M", "L", "XL"],
       colors: ["Maroon", "Gold", "Black"],
       description: "Elegant party gown with sequin details perfect for evening events."
@@ -128,7 +128,7 @@ const dressData = [
       originalPrice: 1199,
       rating: 4.3,
       inStock: true,
-      imageUrl: "src/images/pexels-jack-winbow-460463-1457983.jpg",
+      imageUrl: "/images/pexels-jack-winbow-460463-1457983.jpg",
       sizes: ["M", "L", "XL"],
       colors: ["White", "Blue", "Olive"],
       description: "Stylish and comfortable shirt for casual wear or a semi-formal look."
