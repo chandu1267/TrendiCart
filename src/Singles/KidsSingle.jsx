@@ -1,22 +1,20 @@
-import React from "react";
-import mensProducts from "../Data/MensData";
-import { useParams } from "react-router-dom";
+import React from 'react'
+import kidsProduct from "../Data/KidsData"
+import { useParams } from 'react-router-dom'
 
-const Mensingle = () => {
-  const { id } = useParams();
-
-  const products = mensProducts.find((item) => item.id === parseInt(id));
-
-  // if(!products) return <h5>Webpage under construction</h5>
-
+const KidsSingle = () => {
+    const {id} = useParams();
+    const products = kidsProduct.find((item)=> item.id === parseInt(id));
   return (
     <div className="img">
       <div className="singleimg">
-        <img src={products.image} class="img-fluid" alt="..." />
+        <img src={products.image} className="img-fluid" alt="..." />
       </div>
       <div className="single_img_data">
-        <h6 className="text-start">Product  : {products.name}</h6>
-        <h6 className="text-start">Price : <del>{products.price}</del> {products.finalPrice}</h6>
+        <h6 className="text-start">Product : {products.name}</h6>
+        <h6 className="text-start">
+          Price : <del>{products.price}</del> {products.finalPrice}
+        </h6>
         <h6 className="text-start">Discount : {products.discount}%</h6>
         <h6 className="text-start">Rating : {products.rating}⭐</h6>
         <h6 className="text-start">Size : {products.size}</h6>
@@ -26,7 +24,7 @@ const Mensingle = () => {
         <h6><button class="btn btn-outline-primary bg_red" ><i class="fa-solid fa-truck"></i> Buy Now</button></h6>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Mensingle;
+export default KidsSingle

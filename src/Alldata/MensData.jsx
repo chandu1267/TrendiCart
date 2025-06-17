@@ -7,7 +7,7 @@ const MensData = () => {
     <div className="mensdata">
       {mensProducts.map((item) => {
         return (
-          <div className="mensimage">
+          <div className="mensimage" >
             <Link to={`/mens/${item.id}`}>
             <img src={item.image} alt="" />
             </Link>

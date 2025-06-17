@@ -1,11 +1,12 @@
 import './App.css'
 import LandingPage from './Pages/LandingPage'
-import { Route, Routes } from 'react-router-dom'
+import {Route, Routes } from 'react-router-dom'
 import MensData from './Alldata/MensData'
 import WomensData from './Alldata/WomensData'
 import KidsData from './Alldata/KidsData'
 import Mensingle from './Singles/Mensingle'
 import Womensingle from './Singles/Womensingle'
+import KidsSingle from './Singles/KidsSingle'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path='/kids' element={<KidsData/>}/>
         <Route path='/mens/:id' element={<Mensingle/>}/>
         <Route path='/womens/:id' element={<Womensingle/>}/>
+        <Route path='/kids/:id' element={<KidsSingle/>}/>
 
     </Routes>
     </>

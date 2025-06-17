@@ -1,5 +1,6 @@
 import React from "react";
 import kidsData from "../Data/KidsData";
+import { Link } from "react-router-dom";
 
 const KidsData = () => {
   return (
@@ -7,7 +8,9 @@ const KidsData = () => {
       {kidsData.map((item) => {
         return (
           <div className="mensimage">
-            <img src={item.image} alt="" />
+            <Link to={`/kids/${item.id}`}>
+              <img src={item.image} alt="" />
+            </Link>
             <div className="pricing">
               <del>
                 <p>&#8377;{item.price}</p>

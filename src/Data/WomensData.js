@@ -8,7 +8,7 @@ const womensProducts = [
       finalPrice: 959,
       rating: 4.2,
       size: ["S", "M", "L", "XL"],
-      image: "src/Womensassets/adele-shafiee-FfdgrWWVgUI-unsplash.jpg",
+      image: "/Womensassets/adele-shafiee-FfdgrWWVgUI-unsplash.jpg",
       brand: "ONLY",
       stock: 30
     },
@@ -21,7 +21,7 @@ const womensProducts = [
       finalPrice: 1749,
       rating: 4.5,
       size: ["S", "M", "L"],
-      image: "src/Womensassets/aiony-haust-IXYxqP4zejo-unsplash.jpg",
+      image: "/Womensassets/aiony-haust-IXYxqP4zejo-unsplash.jpg",
       brand: "Zara",
       stock: 25
     },
@@ -34,7 +34,7 @@ const womensProducts = [
       finalPrice: 2249,
       rating: 4.3,
       size: [5, 6, 7, 8],
-      image: "src/Womensassets/alireza-dolati-OVS3rqXq9gg-unsplash.jpg",
+      image: "/Womensassets/alireza-dolati-OVS3rqXq9gg-unsplash.jpg",
       brand: "Nike",
       stock: 18
     },
@@ -47,7 +47,7 @@ const womensProducts = [
       finalPrice: 1519,
       rating: 4.6,
       size: [],
-      image: "src/Womensassets/corey-saldana-pIKQbdSzF_k-unsplash.jpg",
+      image: "/Womensassets/corey-saldana-pIKQbdSzF_k-unsplash.jpg",
       brand: "Lavie",
       stock: 40
     },
@@ -60,7 +60,7 @@ const womensProducts = [
       finalPrice: 1189,
       rating: 4.2,
       size: ["S", "M", "L", "XL"],
-      image: "src/Womensassets/dom-hill-nimElTcTNyY-unsplash.jpg",
+      image: "/Womensassets/dom-hill-nimElTcTNyY-unsplash.jpg",
       brand: "Biba",
       stock: 35
     },
@@ -73,7 +73,7 @@ const womensProducts = [
       finalPrice: 1274,
       rating: 4.3,
       size: ["28", "30", "32", "34"],
-      image: "src/Womensassets/engin-akyurt-5raPrOhbKQo-unsplash.jpg",
+      image: "/Womensassets/engin-akyurt-5raPrOhbKQo-unsplash.jpg",
       brand: "Levi's",
       stock: 20
     },
@@ -86,7 +86,7 @@ const womensProducts = [
       finalPrice: 1539,
       rating: 4.4,
       size: [5, 6, 7, 8],
-      image: "src/Womensassets/graca-assane-mJmxnpJTr8w-unsplash.jpg",
+      image: "/Womensassets/graca-assane-mJmxnpJTr8w-unsplash.jpg",
       brand: "Catwalk",
       stock: 15
     },
@@ -99,7 +99,7 @@ const womensProducts = [
       finalPrice: 879,
       rating: 4.1,
       size: ["S", "M", "L"],
-      image: "src/Womensassets/jc-gellidon-fnc3YCtCCOI-unsplash.jpg",
+      image: "/Womensassets/jc-gellidon-fnc3YCtCCOI-unsplash.jpg",
       brand: "AND",
       stock: 22
     },
@@ -112,7 +112,7 @@ const womensProducts = [
       finalPrice: 629,
       rating: 4.0,
       size: ["XS", "S", "M"],
-      image: "src/Womensassets/jon-ly-Xn7GvimQrk8-unsplash.jpg",
+      image: "/Womensassets/jon-ly-Xn7GvimQrk8-unsplash.jpg",
       brand: "Forever 21",
       stock: 28
     },
@@ -125,7 +125,7 @@ const womensProducts = [
       finalPrice: 1494,
       rating: 4.5,
       size: ["M", "L", "XL"],
-      image: "src/Womensassets/kai-s-photography-2s3GhhJz2uY-unsplash.jpg",
+      image: "/Womensassets/kai-s-photography-2s3GhhJz2uY-unsplash.jpg",
       brand: "ONLY",
       stock: 17
     },
@@ -138,7 +138,7 @@ const womensProducts = [
       finalPrice: 679,
       rating: 4.2,
       size: ["S", "M", "L", "XL"],
-      image: "src/Womensassets/kai-s-photography-DeUmcgcf3is-unsplash.jpg",
+      image: "/Womensassets/kai-s-photography-DeUmcgcf3is-unsplash.jpg",
       brand: "Jockey",
       stock: 40
     },
@@ -151,7 +151,7 @@ const womensProducts = [
       finalPrice: 539,
       rating: 4.1,
       size: [],
-      image: "src/Womensassets/liviu-boldis-myWZQ5FHn9k-unsplash.jpg",
+      image: "/Womensassets/liviu-boldis-myWZQ5FHn9k-unsplash.jpg",
       brand: "W",
       stock: 35
     },
@@ -164,7 +164,7 @@ const womensProducts = [
       finalPrice: 1649,
       rating: 4.6,
       size: [],
-      image: "src/Womensassets/mike-von-V4cl7_0N2mc-unsplash.jpg",
+      image: "/Womensassets/mike-von-V4cl7_0N2mc-unsplash.jpg",
       brand: "Titan",
       stock: 20
     },
@@ -177,7 +177,7 @@ const womensProducts = [
       finalPrice: 1049,
       rating: 4.3,
       size: [],
-      image: "src/Womensassets/muhammad-abdullah-zaeBgN8OTsg-unsplash.jpg",
+      image: "/Womensassets/muhammad-abdullah-zaeBgN8OTsg-unsplash.jpg",
       brand: "Ray-Ban",
       stock: 25
     },
@@ -190,7 +190,7 @@ const womensProducts = [
       finalPrice: 1039,
       rating: 4.4,
       size: ["S", "M", "L"],
-      image: "src/Womensassets/pexels-itanndy-2399173.jpg",
+      image: "/Womensassets/pexels-itanndy-2399173.jpg",
       brand: "Puma",
       stock: 30
     },
@@ -203,7 +203,7 @@ const womensProducts = [
       finalPrice: 899,
       rating: 4.2,
       size: ["S", "M", "L"],
-      image: "src/Womensassets/sonnie-hiles-pU4J5VFnqCQ-unsplash.jpg",
+      image: "/Womensassets/sonnie-hiles-pU4J5VFnqCQ-unsplash.jpg",
       brand: "Biba",
       stock: 24
     }

@@ -8,7 +8,7 @@ const kidsProducts = [
       finalPrice: 479,
       rating: 4.2,
       size: ["2-3Y", "3-4Y", "4-5Y", "5-6Y"],
-      image: "src/Kidsassets/pexels-amina-filkins-5559989.jpg",
+      image: "/Kidsassets/pexels-amina-filkins-5559989.jpg",
       brand: "Babyhug",
       stock: 40
     },
@@ -21,7 +21,7 @@ const kidsProducts = [
       finalPrice: 749,
       rating: 4.5,
       size: ["1-2Y", "2-3Y", "3-4Y"],
-      image: "src/Kidsassets/pexels-cottonbro-3661550.jpg",
+      image: "/Kidsassets/pexels-cottonbro-3661550.jpg",
       brand: "Hopscotch",
       stock: 30
     },
@@ -34,7 +34,7 @@ const kidsProducts = [
       finalPrice: 909,
       rating: 4.3,
       size: [6, 7, 8, 9],
-      image: "src/Kidsassets/pexels-dmitriy-steinke-559643503-20669611.jpg",
+      image: "/Kidsassets/pexels-dmitriy-steinke-559643503-20669611.jpg",
       brand: "Adidas Kids",
       stock: 20
     },
@@ -47,7 +47,7 @@ const kidsProducts = [
       finalPrice: 719,
       rating: 4.2,
       size: ["3-4Y", "4-5Y", "5-6Y"],
-      image: "src/Kidsassets/pexels-hs-studio-by-hussnain-595837849-31637467.jpg",
+      image: "/Kidsassets/pexels-hs-studio-by-hussnain-595837849-31637467.jpg",
       brand: "Levi's Kids",
       stock: 25
     },
@@ -60,7 +60,7 @@ const kidsProducts = [
       finalPrice: 1049,
       rating: 4.6,
       size: ["3-4Y", "4-5Y", "5-6Y"],
-      image: "src/Kidsassets/pexels-hs-studio-by-hussnain-595837849-31637480.jpg",
+      image: "/Kidsassets/pexels-hs-studio-by-hussnain-595837849-31637480.jpg",
       brand: "Biba Kids",
       stock: 15
     },
@@ -73,7 +73,7 @@ const kidsProducts = [
       finalPrice: 879,
       rating: 4.4,
       size: ["3-4Y", "5-6Y", "7-8Y"],
-      image: "src/Kidsassets/pexels-hudsonmarquesfotografia-3394406.jpg",
+      image: "/Kidsassets/pexels-hudsonmarquesfotografia-3394406.jpg",
       brand: "Puma",
       stock: 18
     },
@@ -86,7 +86,7 @@ const kidsProducts = [
       finalPrice: 449,
       rating: 4.1,
       size: ["2-3Y", "3-4Y", "4-5Y"],
-      image: "src/Kidsassets/pexels-ismaelabdalnabystudio-14578156.jpg",
+      image: "/Kidsassets/pexels-ismaelabdalnabystudio-14578156.jpg",
       brand: "Mini Klub",
       stock: 30
     },
@@ -99,7 +99,7 @@ const kidsProducts = [
       finalPrice: 594,
       rating: 4.0,
       size: ["2-3Y", "3-4Y", "5-6Y"],
-      image: "src/Kidsassets/pexels-kha-ruxury-287153-933187.jpg",
+      image: "/Kidsassets/pexels-kha-ruxury-287153-933187.jpg",
       brand: "Gini & Jony",
       stock: 22
     },
@@ -112,7 +112,7 @@ const kidsProducts = [
       finalPrice: 674,
       rating: 4.3,
       size: ["2-3Y", "3-4Y", "4-5Y"],
-      image: "src/Kidsassets/pexels-kseniachernaya-6616237.jpg",
+      image: "/Kidsassets/pexels-kseniachernaya-6616237.jpg",
       brand: "H&M Kids",
       stock: 28
     },
@@ -125,7 +125,7 @@ const kidsProducts = [
       finalPrice: 639,
       rating: 4.5,
       size: [],
-      image: "src/Kidsassets/pexels-marta-wave-6437596.jpg",
+      image: "/Kidsassets/pexels-marta-wave-6437596.jpg",
       brand: "Disney",
       stock: 35
     },
@@ -138,7 +138,7 @@ const kidsProducts = [
       finalPrice: 254,
       rating: 4.1,
       size: [],
-      image: "src/Kidsassets/pexels-olia-danilevich-6349567.jpg",
+      image: "/Kidsassets/pexels-olia-danilevich-6349567.jpg",
       brand: "Uniqlo Kids",
       stock: 45
     },
@@ -151,7 +151,7 @@ const kidsProducts = [
       finalPrice: 1039,
       rating: 4.7,
       size: ["2-3Y", "4-5Y", "6-7Y"],
-      image: "src/Kidsassets/pexels-pavel-danilyuk-8421903.jpg",
+      image: "/Kidsassets/pexels-pavel-danilyuk-8421903.jpg",
       brand: "Little Kangaroos",
       stock: 12
     },
@@ -164,7 +164,7 @@ const kidsProducts = [
       finalPrice: 749,
       rating: 4.2,
       size: ["2-3Y", "3-4Y", "4-5Y"],
-      image: "src/Kidsassets/pexels-pixabay-39295.jpg",
+      image: "/Kidsassets/pexels-pixabay-39295.jpg",
       brand: "FirstCry",
       stock: 32
     },
@@ -177,7 +177,7 @@ const kidsProducts = [
       finalPrice: 552,
       rating: 4.0,
       size: ["3-4Y", "4-5Y", "5-6Y"],
-      image: "src/Kidsassets/pexels-vika-glitter-392079-1620758.jpg",
+      image: "/Kidsassets/pexels-vika-glitter-392079-1620758.jpg",
       brand: "Max Kids",
       stock: 26
     },
@@ -190,7 +190,7 @@ const kidsProducts = [
       finalPrice: 479,
       rating: 4.1,
       size: [6, 7, 8],
-      image: "src/Kidsassets/pexels-vika-glitter-392079-1619786.jpg",
+      image: "/Kidsassets/pexels-vika-glitter-392079-1619786.jpg",
       brand: "Crocs",
       stock: 18
     },
@@ -203,7 +203,7 @@ const kidsProducts = [
       finalPrice: 359,
       rating: 4.2,
       size: [],
-      image: "src/Kidsassets/pexels-vika-glitter-392079-1648535.jpg",
+      image: "/Kidsassets/pexels-vika-glitter-392079-1648535.jpg",
       brand: "Spiderman",
       stock: 20
     }
