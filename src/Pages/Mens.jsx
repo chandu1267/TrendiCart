@@ -1,6 +1,6 @@
 import React from "react";
 import dressData from "../Data/data";
-import Navbar from "../Components/Navbar";
+import { Link } from "react-router-dom";
 
 const Mens = () => {
   const firstThree = dressData.slice(0, 3);
@@ -10,7 +10,7 @@ const Mens = () => {
         {firstThree.map((item) => {
           return (
             <div className="data">
-              <img className="dataImage" src={item.imageUrl} alt="" srcset="" />
+              <Link to='/womens'><img className="dataImage" src={item.imageUrl} alt="" srcset="" /></Link>
               <p>
                 <h6>{item.name}</h6>
               </p>

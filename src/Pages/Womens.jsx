@@ -1,5 +1,6 @@
 import React from 'react'
 import dressData from '../Data/data'
+import { Link } from 'react-router-dom'
 
 const Womens = () => {
 const firstThree = dressData.slice(5,8)
@@ -10,7 +11,7 @@ const firstThree = dressData.slice(5,8)
         firstThree.map((item)=>{
             return(
                 <div className="data">
-                <img className="dataImage" src={item.imageUrl} alt="" srcset="" />
+                <Link to="/mens"><img className="dataImage" src={item.imageUrl} alt="" srcset="" /></Link>
                 <p><h6>{item.name}</h6></p>
                 <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>{item.rating}</p>
                 <div className="pricing">

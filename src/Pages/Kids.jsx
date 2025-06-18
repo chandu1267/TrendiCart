@@ -1,5 +1,6 @@
 import React from "react";
 import kidsProducts from "../Data/KidsData";
+import { Link } from "react-router-dom";
 
 const Kids = () => {
   const firstThree = kidsProducts.slice(4, 7);
@@ -8,7 +9,7 @@ const Kids = () => {
       {firstThree.map((item) => {
         return (
           <div className="data">
-            <img className="dataImage" src={item.image} alt="" srcset="" />
+            <Link to="/kids"><img className="dataImage" src={item.image} alt="" srcset="" /></Link>
             <p>
               <h6>{item.name}</h6>
             </p>
